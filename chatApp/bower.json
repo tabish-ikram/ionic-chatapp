@@ -1,7 +1,21 @@
 {
   "name": "HelloIonic",
-  "private": "true",
   "devDependencies": {
-    "ionic": "driftyco/ionic-bower#1.1.0"
-  }
+    "ionic": "driftyco/ionic-bower#1.1.0",
+    "ngCordova": "~0.1.20-alpha"
+  },
+  "version": "0.0.0",
+  "homepage": "https://github.com/tabish-ikram/ionic-chatapp",
+  "authors": [
+    "Tabish-Ikram <tabishikram1947@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/lib",
+    "test",
+    "tests"
+  ]
 }

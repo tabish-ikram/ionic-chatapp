@@ -1,5 +1,15 @@
 <ion-view view-title="Friends">
   <ion-content>
-    in friends
+    <div class="list" ng-repeat="friend in friends">
+      <a class="item item-avatar" href="#">
+        <img ng-src="{{friend.image}}">
+        <h2>{{friend.name}}</h2>
+        <p>Back off, man. I'm a scientist.</p>
+      </a>
+
+      ...
+
+    </div>
+    </div>
   </ion-content>
 </ion-view>
